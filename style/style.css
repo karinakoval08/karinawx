@@ -44,6 +44,17 @@ a{
     font-size: 16px;
     
 }
+.modal-under{
+    background-color: #0000006c;
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
 
 .btn-header img{
     padding-right: 4px;
@@ -516,6 +527,7 @@ line-height: 22px; /* 157.143% */
 .button{
     padding: 16px 8px;
 }
+
 .modal-auth{
     display: none;
     position: fixed;
@@ -531,6 +543,7 @@ line-height: 22px; /* 157.143% */
 
 .modal-auth.is-open {
     display: block;
+    
 }
 
 .usernamehead{
